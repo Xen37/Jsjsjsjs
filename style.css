@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4a90e2;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.center-container {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+img {
+  width: 40%;
+  display: center;
+}
+
+
+/* Image Container Styling */
+.image-container1 {
+    display: flex;
+    width: 100%; /* You can adjust the size */
+    padding: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 1px; /* Adds rounded corners */
+    justify-content: center;
+}
+
+
+.image-container img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Keeps the image's aspect ratio */
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
